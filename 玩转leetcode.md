@@ -1,8 +1,13 @@
   
-
+<style>
+img{
+    width: 60%;
+    padding-left: 20%;
+}
+</style>
 
  
-![数组程序如何正确写出](https://github.com/csmaterial/phototest/blob/master/photo/1.png =100*20)
+![数组程序如何正确写出](https://github.com/csmaterial/phototest/blob/master/photo/1.png)
 ![数组程序如何正确写出](https://github.com/csmaterial/phototest/blob/master/photo/2.png)
 
 
