@@ -2,7 +2,8 @@
 
 
  
-![数组程序如何正确写出](https://github.com/csmaterial/phototest/blob/master/photo/1.png)
+![数组程序如何正确写出](https://github.com/csmaterial/phototest/blob/master/photo/1.png =100*20)
+![数组程序如何正确写出](https://github.com/csmaterial/phototest/blob/master/photo/2.png)
 
 
 以二分查找法为例
