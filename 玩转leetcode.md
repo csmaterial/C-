@@ -1,10 +1,4 @@
-  
-<style>
-img{
-    width: 60%;
-    padding-left: 20%;
-}
-</style>
+
 
  
 ![数组程序如何正确写出](https://github.com/csmaterial/phototest/blob/master/photo/1.png)
@@ -49,9 +43,11 @@ Leetcode 283
 最简单：暴力解法，双层遍历，O（n2）
 缺点：没有利用有序
 补充：利用二分搜索。查找target – nums[i]  O（nlogn）
- 
+ ![数组程序如何正确写出](https://github.com/csmaterial/phototest/blob/master/photo/3.png)
+
 I++
- 
+ ![数组程序如何正确写出](https://github.com/csmaterial/phototest/blob/master/photo/4.png)
+
 j—
  改进思路：对撞指针，两路快排。
 回文，同样可以用类似对撞指针
@@ -63,7 +59,8 @@ j—
 子数组：数组中可以不连续的数组
 暴力解：遍历所有连续子数组，计算其和sum，验证sum>=s，O(n2)包含大量重复计算
 优化：
- 
+ ![数组程序如何正确写出](https://github.com/csmaterial/phototest/blob/master/photo/5.png)
+
 当数组和不足，j向右，当数组和过大，i向右。
 
 在此过程中，我们一直保持着一个窗口，即为滑动窗口
@@ -73,13 +70,14 @@ Nums[l..r]
 （ANSCII码为256个）
 
 438 Find all anagram
- 
-
- 
+ ![数组程序如何正确写出](https://github.com/csmaterial/phototest/blob/master/photo/6.png)
+![数组程序如何正确写出](https://github.com/csmaterial/phototest/blob/master/photo/7.png)
 
 查找问题：
  
- 
+ ![数组程序如何正确写出](https://github.com/csmaterial/phototest/blob/master/photo/8.png)
+![数组程序如何正确写出](https://github.com/csmaterial/phototest/blob/master/photo/9.png)
+
 
 349 Intersection of two arrays
 Set中不存重复元素，故多次insert相同元素依然只存在一个元素。
